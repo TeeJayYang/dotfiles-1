@@ -4,7 +4,9 @@
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![Busy Screen](screenshots/busy.png)
 
-This repository contains all the dotfiles I use for my Solus machine.
+This repository contains all the dotfiles I use for my Solus machine. Note that this repository is
+out-of-date and the most recent version of my dotfiles can be found in
+[dotfiles](https://gitlab.com/jeffrey-xiao/dotfiles).
 
 ## List of Software
 
@@ -78,7 +80,6 @@ the exception of the transparent background in `urxvt`, and the colors in `dirco
 
 - [`bin/brightness`](bin/brightness): Change the path to the system internals interface for the
   backlight device.
-- [`bin/bspwm-distribute-desktops`](bin/bspwm-distribute-desktops): Change number of desktops.
 - [`bin/download-album-art`](bin/download-album-art): Define `LAST_FM_KEY`.
 - [`bin/get-cpu-temperature`](bin/get-cpu-temperature): Change the path to the system internals
   interface for the thermal device.

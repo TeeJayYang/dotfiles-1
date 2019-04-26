@@ -14,12 +14,12 @@ log_file="$DOTFILES_DIR/install.log"
 printf "" >"$log_file"
 
 declare -a programs=(
-  acpi blueman bspwm gnome-settings-daemon i3lock imagemagick jq network-manager numix-gtk-theme papirus-icon-theme rofi scrot slop sysstat xbacklight xclip xinput
   compton
   dunst
   feh
   mkfontdir mkfontscale xset
   htop
+  acpi blueman gnome-settings-daemon i3 i3lock imagemagick jq network-manager numix-gtk-theme papirus-icon-theme rofi scrot slop sysstat xbacklight xclip xinput
   mpc mpd
   mpv
   ncmpcpp
