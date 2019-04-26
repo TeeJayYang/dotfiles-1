@@ -244,13 +244,13 @@ bindsym $mod+bracketright exec --no-startup-id mpc next
 
 # Window colors
 #                       border   background  text     indicator  child border
-client.focused          $color8  $color3     $color7  $color3    $color3
-client.unfocused        $color8  $color8     $color7  $color8    $color8
-client.focused_inactive $color8  $color8     $color7  $color8    $color8
-client.urgent           $color8  $color8     $color1  $color8    $color8
+client.focused          $color3  $color3     $color7  $color3    $color3
+client.unfocused        $color0  $color0     $color7  $color0    $color0
+client.focused_inactive $color0  $color0     $color7  $color0    $color0
+client.urgent           $color0  $color0     $color1  $color0    $color0
 
 hide_edge_borders smart
-for_window [class="^.*"] border pixel 5
+for_window [class="^.*"] border pixel 4
 new_float none
 
 ## Configure startup applications
